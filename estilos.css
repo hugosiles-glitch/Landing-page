@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  background: #f8b373;
+}
+
+a{
+  color: #f8b373;
+}
+
+.cabecera{
+  position: sticky;
+  top: 0;
+  background: #ff7b00;
+  padding: 15px 0;
+  z-index: 1000;
+  border-bottom: 2px solid #ff7b00;
+  box-shadow: 0 4px 15px #000000;
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
